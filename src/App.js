@@ -21,6 +21,9 @@ function App() {
    Setscreen("Link")
    SetFielda(fielda)
    SetFieldb(fieldb)}
+   const returnHome = () => {
+     Setscreen("Home")
+   }
   return (
     <div className="App">
       <header className="App-header">
@@ -28,7 +31,7 @@ function App() {
         {(screen==="Home")?<Home callEvent={callEvent} callGroup={callGroup} /> : null}
         {(screen==="Event")?<Event callLink={callLink} /> : null}
         {(screen==="Group")?<Group callLink={callLink} /> : null}
-        {(screen==="Link")?<Link page={event} EventGroupName={fielda} PromoterName={fieldb} /> : null}
+        {(screen==="Link")?<Link returnHome={returnHome} page={event} EventGroupName={fielda} PromoterName={fieldb} /> : null}
     </header>
     </div>
   );

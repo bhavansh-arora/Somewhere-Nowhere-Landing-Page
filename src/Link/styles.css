@@ -13,6 +13,7 @@
     font-weight: 510;
     border: none;
     box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #fff;
 }
 .copy-button {
@@ -25,6 +26,7 @@
     font-weight: 510;
     border: none;
     box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: white; 
     color: #008CBA; 
     border: 2px solid #008CBA;
@@ -33,4 +35,22 @@
   background-color: #008CBA;
   color: white;
 }
-
+.return-button {
+    width: 200px;
+    padding: 12px;
+    margin:  20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 510;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white; 
+    color: #FFA500; 
+    border: 2px solid #FFA500;
+}
+.return-button:hover {
+  background-color: #FFA500;
+  color: white;
+}

@@ -1,5 +1,6 @@
 .event-page-inputs {
     width: 250px;
+    height:20px;
     padding: 12px;
     margin:  20px;
     border-radius: 10px;
@@ -9,6 +10,7 @@
     border: none;
     box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #fff;
+    -webkit-appearance: none;
 }
 .next-button {
     width: 200px;
@@ -31,6 +33,6 @@
 .error {
   font-size: 18px;
   font-weight: 600;
-  color: #DC143C;
+  color: crimson;
 }
 

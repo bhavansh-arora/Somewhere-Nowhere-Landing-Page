@@ -12,6 +12,7 @@ function Link(props) {
         <>
         <p className="link">{(props.page)?base_url+props.PromoterName+'/'+props.EventGroupName:base_url+props.PromoterName+'/g/'+props.EventGroupName}</p>
         <button onClick={() =>  copyToClipboard()} className="copy-button">{(!copied)?"Copy Link":"Link Copied"}</button>
+        <button onClick={() =>  props.returnHome()} className="return-button">Return to Home</button>
         </>
       
     )
